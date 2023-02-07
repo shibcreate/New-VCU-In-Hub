@@ -363,11 +363,11 @@ BO_ 1288 VCU_Regen_Settings: 8 VCU
  SG_ VCU_MCM_RegenAPPSMaxCoasting : 48|8@1+ (1,0) [0|255] "" VCU
  SG_ VCU_MCM_RegenBPSMaxRegen : 56|8@1+ (1,0) [0|255] "" VCU
 
-BO_ 1292 Steering_Sensor: 8 DAQ
- SG_ Steering_Angle_Sensor : 0|16@1- (1,0) [-32768|32767] "Degrees" VCU
-
 BO_ 1290 VCU_Ground_Speed_Motor: 8 DAQ
  SG_ VCU_Ground_Speed_Motor_Kph : 0|16@1- (1,0) [-32768|32767] "Kph" DAQ
+
+BO_ 1292 SAS_Sensor: 8 DAQ
+ SG_ Steering_Angle : 0|16@1- (1,0) [-100|100] "Degrees" VCU
 
 BO_ 1294 VCU_BMS_Debug_1: 8 VCU
  SG_ VCU_BMS_FaultFlags0 : 0|8@1+ (1,0) [0|255] "" VCU
